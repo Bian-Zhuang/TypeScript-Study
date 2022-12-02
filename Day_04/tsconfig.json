@@ -6,7 +6,8 @@
 		"module": "ES2015",
 		"strict": true,
 		// 编译后文件所在目录
-		"outDir": "./dist"
+		"outDir": "./dist",
+		"noEmitOnError": true
 	},
 	"include": [
 		"./src/**/*"
